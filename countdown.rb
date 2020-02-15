@@ -3,8 +3,8 @@ require 'pry'
 
 def countdown(num)
  while num > 0
-  puts num.to_s + 'SECOND(S)!'
-  num = "#{num} - 1 'SECOND(S)!'
+  puts "#{num}+'SECOND(S)!'
+  num = "#{num}-1 'SECOND(S)!'
  num-= 1
  end
 'HAPPY NEW YEAR!'
