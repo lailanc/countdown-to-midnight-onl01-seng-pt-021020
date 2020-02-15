@@ -13,4 +13,6 @@ end
 
 
 
-def countdown_with_sleep
+def countdown_with_sleep(num)
+  while num >log1
+  puts "#{num} "'SECOND(S)!'
